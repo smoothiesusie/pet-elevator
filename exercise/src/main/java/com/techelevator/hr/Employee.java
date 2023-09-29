@@ -1,8 +1,9 @@
 package com.techelevator.hr;
 
+import com.techelevator.Billable;
 import com.techelevator.Person;
 
-public class Employee extends Person {
+public class Employee extends Person implements Billable {
 
     private int employeeId;
     private String title;
